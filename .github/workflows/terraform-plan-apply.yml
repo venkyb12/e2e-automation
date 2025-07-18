@@ -12,6 +12,7 @@ permissions:
 env:
   TERRAFORM_DIR: './labs/gh-actions/main'
   AWS_REGION: 'us-west-1'
+  TF_VAR_instance_type: 't2.small'
 
 jobs:
   terraform-plan:
